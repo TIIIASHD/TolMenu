@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Меню коктейлей</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .cocktail {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .cocktail img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .cocktail h2 {
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .cocktail p {
+      margin: 0.5rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Меню коктейлей</h1>
+  </header>
+  <main class="menu">
+    <div class="cocktail">
+      <img src="images/mojito.jpg" alt="Мохито">
+      <h2>Мохито</h2>
+      <p>Ром, мята, лайм, сахар, сода</p>
+    </div>
+    <div class="cocktail">
+      <img src="images/negroni.jpg" alt="Негрони">
+      <h2>Негрони</h2>
+      <p>Джин, кампари, сладкий вермут</p>
+    </div>
+    <div class="cocktail">
+      <img src="images/margarita.jpg" alt="Маргарита">
+      <h2>Маргарита</h2>
+      <p>Текила, лайм, трипл-сек</p>
+    </div>
+    <!-- Добавь больше коктейлей по образцу -->
+  </main>
+</body>
+</html>
